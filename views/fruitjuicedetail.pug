@@ -1,0 +1,27 @@
+extends layout
+
+block content
+  h1(id="titlestyle")= title
+
+  if (toShow == null)
+    h2 No instance to delete
+  else
+    - let fruitjuiceid = toShow._id
+    - let fruitjuiceItemname = toShow.Itemname
+    - let fruitjuiceQuantity = toShow.Quantity
+    - let fruitjuiceprice = toShow.price
+
+    div
+      div.row
+        div(class='costumeAttr mr-3') fruitjuice ID is:
+        div(class='variety stylesheetnew') #{fruitjuiceid}
+      div.row
+        div(class='costumeAttr mr-3') fruitjuice Itemname is:
+        div(class="variety") #{fruitjuiceItemname}
+      div.row
+        div(class='costumeAttr mr-3') fruitjuice Quantity is:
+        div(class="variety") #{fruitjuiceQuantity}
+      div.row
+        div(class='costumeAttr mr-3') fruitjuice price is:
+        div(class="variety") #{fruitjuiceprice}
+    
