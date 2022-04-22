@@ -1,5 +1,5 @@
 {
-  "name": "s2db61peddireddy",
+  "name": "s2db84jakkula",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -20,7 +20,7 @@
     "pug": "^3.0.2"
   },
   "main": "app.js",
-  "author": "Abhishek Dharamkar Ramesh",
+  "author": "Sravani Jakkulas",
   "license": "ISC",
   "description": ""
 }
